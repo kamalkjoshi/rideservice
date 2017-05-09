@@ -1,0 +1,55 @@
+Problem Definition:
+==================
+	DemoUber (Rest endpoints):
+	---------------------
+		We are trying to build a cab aggregator command-line application. It has two entities: a cab and a rider. A
+		rider can request a cab with the pickup and drop location. If a cab is available in the vicinity of the rider then
+		it should be assigned to the rider. A cab can only have one rider at a time. Once a cab finishes the trip
+		he/she is free to be matches to another rider.
+		Each cab and rider is identified by id, which is unique among riders and cabs; and location is defined by (x,
+		y) coordinate on a grid. Your application should allow a rider to book a ride and should handle above
+		mentioned cases appropriately.
+		
+		Define appropriate data structures for storing the data. You can NOT use a database for this problem.
+		Design your system in such a way that it can be extended to accommodate multiple type of cars and
+		multiple matching conditions.
+	Bonus:
+	-----
+		Create another cab type, other than the default, say Uber go and Uber X. Now a user can specify which
+		cab to request. Also make sure that the conditions for matching a rider to a cab is configurable and can be
+		added and removed easily.
+	Expectations:
+	-------------
+		1. Create the sample data yourself.
+		2. Code should be demo-able.
+		3. Code should be modular and should have basic OO design.
+		4. Code should be extensible. It should be easy to add/remove functionality without re-writing entire
+		codebase.
+		6. Code should be readable and DRY.
+		
+Curls
+=====
+
+	GET Cab Listing
+	---------------
+		curl -v -X GET -HContent-Type:application/json  http://localhost:8080/api/cabs/list|python -mjson.tool
+		
+	GET nearby cabs
+	---------------
+		curl -v -X POST -d 'lat=28.430775&long=77.055955&type=GO' http://localhost:8080/api/cabs/nearby | python -mjson.tool
+		
+	Start a trip	
+	---------------
+		curl -v -X POST -d 'cabId=1&riderId=1&fromLat=28.430775&fromLong=77.055955&type=GO' http://localhost:8080/api/trips/start | python -mjson.tool
+	
+	GET trip listing
+	---------------
+	curl -v -X GET -HContent-Type:application/json  http://localhost:8080/api/trips/list|python -mjson.tool
+	
+	Complete a trip	
+	---------------
+		curl -v -X POST -d 'toLat=28.513303&toLong=77.088547' http://localhost:8080/api/trips/1/complete | python -mjson.tool
+		
+		
+		
+		

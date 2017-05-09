@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Kamal Joshi",
+		"current": {
+			"latitude": "28.430775",
+			"longitude": "77.055955"
+		},
+		"address": "Sector 46"
+	},
+	{
+		"name": "Anupama Pathak",
+		"current": {
+			"latitude": "28.513303",
+			"longitude": "77.088547"
+		},
+		"address": "CG Gurgaon"
+	}
+]

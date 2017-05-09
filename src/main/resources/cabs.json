@@ -1,0 +1,92 @@
+[
+	{
+		"driver": "Deadpool",
+		"model": "SWIFT",
+		"current": {
+			"latitude": "28.430775",
+			"longitude": "77.055955"
+		},
+		"address": "Sector 46"
+	},
+	{
+		"driver": "Logan",
+		"model": "AMAZE",
+		"current": {
+			"latitude": "28.4352558",
+			"longitude": "77.0574507"
+		},
+		"address": "Sector 46 Market"
+	},
+	{
+		"driver": "Storm",
+		"model": "FIGO",
+		"current": {
+			"latitude": "28.4352558",
+			"longitude": "77.0574507"
+		},
+		"address": "Sector 46 Market"
+	},
+	{
+		"driver": "Flash",
+		"model": "LIVA",
+		"current": {
+			"latitude": "28.4617439",
+			"longitude": "77.0657519"
+		},
+		"address": "Unitech cyber park"
+	},
+	{
+		"driver": "Superman",
+		"model": "FIGO",
+		"current": {
+			"latitude": "28.5003129",
+			"longitude": "77.0757039"
+		},
+		"address": "ASF Center Udyog Vihar"
+	},
+	{
+		"driver": "Ironman",
+		"model": "INNOVA",
+		"current": {
+			"latitude": "28.5003129",
+			"longitude": "77.0757039"
+		},
+		"address": "ASF Center Udyog Vihar"
+	},
+	{
+		"driver": "Spiderman",
+		"model": "LIVA",
+		"current": {
+			"latitude": "28.4907445",
+			"longitude": "77.0775495"
+		},
+		"address": "Airtel Office NH8"
+	},
+	{
+		"driver": "Batman",
+		"model": "DEZIRE",
+		"current": {
+			"latitude": "28.4907445",
+			"longitude": "77.0775495"
+		},
+		"address": "Airtel Office NH8"
+	},
+	{
+		"driver": "Hulk",
+		"model": "ETIOS",
+		"current": {
+			"latitude": "28.513303",
+			"longitude": "77.088547"
+		},
+		"address": "CG Gurgaon"
+	},
+	{
+		"driver": "Antman",
+		"model": "SWIFT",
+		"current": {
+			"latitude": "28.513303",
+			"longitude": "77.088547"
+		},
+		"address": "CG Gurgaon"
+	}
+]
